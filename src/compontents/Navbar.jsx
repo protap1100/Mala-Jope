@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7"
+          className="absolute right-8 top-6 -mt-2 cursor-pointer md:hidden w-7 h-7"
         >
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </div>
