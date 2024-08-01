@@ -1,9 +1,9 @@
 const Montro = () => {
-    return (
-        <div>
-            Ami Montro
-        </div>
-    );
+  return (
+    <div>
+      
+    </div>
+  );
 };
 
 export default Montro;

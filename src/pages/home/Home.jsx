@@ -1,7 +1,9 @@
+import MalaJope from "../malajope/MalaJope";
+
 const Home = () => {
     return (
         <div>
-            Home
+            <MalaJope></MalaJope>
         </div>
     );
 };

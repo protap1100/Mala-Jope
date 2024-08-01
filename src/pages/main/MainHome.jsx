@@ -5,8 +5,12 @@ import Footer from "../../compontents/Footer";
 const MainHome = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className="h-16">
+        <Navbar></Navbar>
+      </div>
+      <div className="container mx-auto">
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );
